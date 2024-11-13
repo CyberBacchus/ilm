@@ -1,4 +1,4 @@
-# Quarto-Typsy ilm extension
+# Quarto-Typst ilm extension
 
 ilm template from：https://github.com/talal/ilm
 

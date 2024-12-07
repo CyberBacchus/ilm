@@ -4,20 +4,17 @@ author: 施一信
 abstract: "天下苦LaTeX久矣，是时候迁移到用Rust开发的渲染飞快的Typst了。我在Claude 3.5 Sonnet的协助下将Typst的ilm模板(github.com/talal/ilm)迁移成了Quarto Typst Extension，从此可以使用心仪的Typst模板愉快地输出pdf了。"
 format:
   ilm-typst: default
-date: "2023-11-3"
+date: T
 ---
 
-## Introduction
+## 标题
 
-*TODO* Create an example file that demonstrates the formatting and features of your format.
-
-## More Information
-
-You can learn more about creating custom Typst templates here: 
-
-<https://quarto.org/docs/prerelease/1.4/typst.html#custom-formats>
-
-测试测试
-
-
-
+```{r}
+rm(list = ls())
+library(here)
+library(tidyverse)
+library(showtext)
+showtext_auto()
+# font_add("Songti SC", regular = "/System/Library/Fonts/Supplemental/Songti.ttc")
+# theme_set(theme_ipsum_rc(base_family = "Songti SC"))
+```

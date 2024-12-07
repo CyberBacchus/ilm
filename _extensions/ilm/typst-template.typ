@@ -221,9 +221,10 @@
   {
     // Start chapters on a new page.
     show heading.where(level: 1): it => {
-      if chapter-pagebreak {
-        colbreak(weak: true)
-      }
+      // 取消了章节新起一页
+      // if chapter-pagebreak {
+      //   colbreak(weak: true)
+      // }
       it
     }
     body

@@ -15,6 +15,7 @@ library(here)
 library(tidyverse)
 library(showtext)
 showtext_auto()
+# library(hrbrthemes)
 # font_add("Songti SC", regular = "/System/Library/Fonts/Supplemental/Songti.ttc")
 # theme_set(theme_ipsum_rc(base_family = "Songti SC"))
 ```
